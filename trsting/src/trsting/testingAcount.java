@@ -33,4 +33,13 @@ System.out.println("Success!");
 } else {
 System.out.println("Error: Invalid Amount");
 } }
+
+// Method with Validation logic
+public void deposit4(double amount) {
+if (amount > 0) { // Selection structure
+balance += amount;
+System.out.println("Success!");
+} else {
+System.out.println("Error: Invalid Amount");
+} }
 }
