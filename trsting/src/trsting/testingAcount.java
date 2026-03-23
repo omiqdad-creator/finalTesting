@@ -4,10 +4,16 @@
  */
 package trsting;
 
-/**
- *
- * @author hp
- */
+
 public class testingAcount {
-    
+    private double balance;
+
+// Method with Validation logic
+public void deposit(double amount) {
+if (amount > 0) { // Selection structure
+balance += amount;
+System.out.println("Success!");
+} else {
+System.out.println("Error: Invalid Amount");
+} }
 }
